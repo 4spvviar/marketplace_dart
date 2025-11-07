@@ -14,7 +14,7 @@ class LoginPage extends StatelessWidget {
         child: Column(
           children: [
             const TextField(
-              decoration: InputDecoration(labelText: "Email"),
+              decoration: InputDecoration(labelText: "Username"),
             ),
             const SizedBox(height: 12),
             const TextField(

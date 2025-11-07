@@ -12,7 +12,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(const Duration(seconds: 2), () {
+    Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (_) => const LoginPage()),
@@ -28,9 +28,10 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Icon(Icons.store_mall_directory, size: 80, color: Colors.green),
+            
             SizedBox(height: 16),
             Text(
-              "Marketplace Sekolah",
+              "School Marketplace",
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
             )
           ],
