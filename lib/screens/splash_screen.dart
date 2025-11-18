@@ -28,7 +28,6 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Icon(Icons.store_mall_directory, size: 80, color: Colors.green),
-            
             SizedBox(height: 16),
             Text(
               "School Marketplace",
